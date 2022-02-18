@@ -22,6 +22,8 @@ class WriteJson:
     def toJson(self):
         pass
 
+#convert class to JSON string -> why not just use this to save class objects to a Json file?
+#jsonStr = json.dumps(WriteJson.__dict__)
 
 class Start:
     # TODO: Start the loop class
